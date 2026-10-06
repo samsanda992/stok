@@ -1,5 +1,5 @@
 import requests, streamlit as st
-api_url = "https://stok-api-uwso.onrender.com"
+api_url = "https://stok-api100.onrender.com/"
 symbol = st.text_input("Stock symbol", "TSLA")
 
 if st.button("Predict next close"):
@@ -8,4 +8,4 @@ if st.button("Predict next close"):
   data = r.json()
   st.metric("Predicted next close",
     data["Predicted_next close"])         
-              
+            https://stok-api100.onrender.com/  
