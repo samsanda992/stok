@@ -8,4 +8,4 @@ if st.button("Predict next close"):
   data = r.json()
   st.metric("Predicted next close",
     data["Predicted_next close"])         
-            https://stok-api100.onrender.com/  
+            
